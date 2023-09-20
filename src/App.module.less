@@ -1,0 +1,12 @@
+.header {
+  height: @header-height;
+}
+
+.content {
+  height: calc(100 * var(--vh) - @header-height - @footer-height);
+  overflow: auto;
+}
+
+.footer {
+  height: @header-height;
+}
