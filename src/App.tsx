@@ -6,7 +6,7 @@ const { Header, Content, Footer } = Layout;
 
 function App() {
   return (
-    <Layout>
+    <Layout className={css.layout}>
       <Header className={css.header}>Header</Header>
       <Content className={css.content}>Content</Content>
       <Footer className={css.footer}>Footer</Footer>
