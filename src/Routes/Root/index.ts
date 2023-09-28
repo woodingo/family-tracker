@@ -1,8 +1,8 @@
-import { RootRoute, Route } from '@tanstack/react-router';
+import { RootRoute } from '@tanstack/react-router';
 import Root from './Root';
-import dashboardRoute from '../Dashboard';
-import loginRoute from '../Login';
-import notFoundRoute from '../NotFound';
+import dashboardRoute from '@routes/Dashboard';
+import loginRoute from '@routes/Login';
+import notFoundRoute from '@routes/NotFound';
 
 const rootRoute = new RootRoute({
   component: Root,
