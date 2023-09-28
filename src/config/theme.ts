@@ -1,9 +1,6 @@
-export const headerHeight = 56;
-export const footerHeihgt = 56;
-
 const theme = {
-  '@header-height': `${headerHeight}px`,
-  '@footer-height': `${footerHeihgt}px`,
+  headerHeight: 56,
+  footerHeight: 56,
 };
 
 export default theme;
