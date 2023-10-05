@@ -8,7 +8,9 @@ const Dashboard: FunctionComponent<DashboardProps> = () => {
   return (
     <div>
       Dashboard
-      <Link to={loginRoute.to}>to login</Link>
+      <div>
+        <Link to={loginRoute.to}>to login</Link>
+      </div>
     </div>
   );
 };

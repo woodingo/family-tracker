@@ -8,6 +8,8 @@ const rootRoute = new RootRoute({
   component: Root,
 });
 
+console.log(rootRoute);
+
 const indexRoute = new Route({
   getParentRoute: () => rootRoute,
   component: () => <Navigate to={dashboardRoute.to} />,
