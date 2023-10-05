@@ -1,5 +1,5 @@
 import { Router } from '@tanstack/react-router';
-import rootRoute from './Root';
+import rootRoute from '@/pages/Root';
 
 const routeTree = rootRoute;
 

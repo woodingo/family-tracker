@@ -1,7 +1,7 @@
 import React, { FunctionComponent } from 'react';
 import { Layout } from 'antd';
 import { useEmotionCss } from '@ant-design/use-emotion-css';
-import theme from '@config/theme';
+import { theme } from '@/shared/config';
 
 const { Header, Content, Footer } = Layout;
 

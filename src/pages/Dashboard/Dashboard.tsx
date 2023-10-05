@@ -1,6 +1,6 @@
 import { Link } from '@tanstack/react-router';
 import React, { FunctionComponent } from 'react';
-import loginRoute from '../Login';
+import loginRoute from '@/pages/Login';
 
 interface DashboardProps {}
 

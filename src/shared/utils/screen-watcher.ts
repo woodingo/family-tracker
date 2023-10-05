@@ -3,10 +3,8 @@ const handler = () => {
   document.documentElement.style.setProperty('--vh', `${vh}px`);
 };
 
-const screenWatcher = () => {
+export const screenWatcher = () => {
   handler();
   window.addEventListener('resize', handler);
   window.addEventListener('orientationchange', handler);
 };
-
-export default screenWatcher;

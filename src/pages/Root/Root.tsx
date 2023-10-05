@@ -1,6 +1,6 @@
 import { Outlet } from '@tanstack/react-router';
 import React, { FunctionComponent } from 'react';
-import RootLayout from '../../layouts/RootLayout';
+import RootLayout from '@/shared/ui/RootLayout';
 
 interface RootProps {}
 
